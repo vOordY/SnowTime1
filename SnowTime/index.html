@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>SnowTime | Аренда горнолыжного снаряжения</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,600;14..32,700;14..32,800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div id="imageModal" class="modal">
+        <span class="modal-close">&times;</span>
+        <img class="modal-content" id="modalImage">
+    </div>
+
+    <div class="snow-bg"></div>
+    
+    <header>
+        <div class="container header-container">
+            <div class="logo">
+                <span class="logo-icon">SNOW</span>
+                <span class="logo-text">TIME</span>
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#catalog">Снаряжение</a></li>
+                    <li><a href="#about">О нас</a></li>
+                    <li><a href="#rental">Как арендовать</a></li>
+                    <li><a href="#contact">Контакты</a></li>
+                    <li><a href="reviews.html" class="reviews-nav-link">Отзывы</a></li>
+                </ul>
+            </nav>
+            <a href="#rental" class="btn-primary btn-small">Забронировать</a>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container hero-grid">
+                <div class="hero-content">
+                    <span class="hero-tag">Зима 2025 — фрирайд максимум</span>
+                    <h1>Прокат снаряжения <span class="highlight">для настоящих</span> покорителей гор</h1>
+                    <p>Лыжи, сноуборды, бэки, шлемы — только профессиональные бренды. С нами ты чувствуешь снег и скорость. Доставка к склону или самовывоз.</p>
+                    <div class="hero-buttons">
+                        <a href="#catalog" class="btn-primary">Выбрать снаряжение</a>
+                        <a href="#about" class="btn-outline">Узнать больше</a>
+                    </div>
+                    <div class="hero-stats">
+                        <div><span>1200+</span><br>Счастливых райдеров</div>
+                        <div><span>50+</span><br>Моделей снаряжения</div>
+                        <div><span>24/7</span><br>Поддержка на склоне</div>
+                    </div>
+                </div>
+                <div class="hero-image zoom-img">
+                    <img src="photos/sn.jfif" alt="Сноубордист фрирайд" class="gallery-zoomable">
+                </div>
+            </div>
+        </section>
+
+        <section id="catalog" class="catalog">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">Экипировка pro-уровня</span>
+                    <h2>Лучшее снаряжение для фрирайда и карвинга</h2>
+                    <p>Только свежие коллекции Salomon, Burton, Atomic, Nitro — идеальное состояние, точная настройка.</p>
+                </div>
+                <div class="cards-grid">
+                    <div class="equip-card">
+                        <div class="card-img zoom-img">
+                            <img src="photos/lsh.jfif" alt="Профессиональные горные лыжи" class="gallery-zoomable">
+                        </div>
+                        <div class="card-info">
+                            <h3>Фрирайд лыжи + крепления</h3>
+                            <p>Armada / Black Crows — широкие, рокер, для глубокого снега.</p>
+                            <div class="price">от 1800₽ / день</div>
+                            <a href="#rental" class="card-link">Арендовать</a>
+                        </div>
+                    </div>
+                    <div class="equip-card">
+                        <div class="card-img zoom-img">
+                            <img src="photos/sn2.jpg" alt="Сноуборд фрирайд" class="gallery-zoomable">
+                        </div>
+                        <div class="card-info">
+                            <h3>Сноуборды Freeride/Freestyle</h3>
+                            <p>Burton, Jones, Capita — направленные и твин-тип.</p>
+                            <div class="price">от 1500₽ / день</div>
+                            <a href="#rental" class="card-link">Арендовать</a>
+                        </div>
+                    </div>
+                    <div class="equip-card">
+                        <div class="card-img zoom-img">
+                            <img src="photos/sn3.jfif" alt="Защита и ботинки" class="gallery-zoomable">
+                        </div>
+                        <div class="card-info">
+                            <h3>Ботинки + защита (шлем / защита спины)</h3>
+                            <p>Термоформовка, MIPS шлемы, полный комфорт.</p>
+                            <div class="price">от 700₽ / день</div>
+                            <a href="#rental" class="card-link">Арендовать</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="container about-grid">
+                <div class="about-image zoom-img">
+                    <img src="photos/lsh2.jfif" alt="Профессиональный лыжник" class="gallery-zoomable">
+                </div>
+                <div class="about-content">
+                    <span class="section-subtitle white-sub">SnowTime experience</span>
+                    <h2>Снаряжение, которое вдохновляет на большие спуски</h2>
+                    <p>Мы сами фрирайдеры и знаем, как важно доверять креплениям и доске в экстремальных условиях. Наша команда тестирует каждую модель на склонах Альп, Хибин и Кавказа. Ты получаешь не просто аренду — ты получаешь уверенность и скорость.</p>
+                    <ul class="about-list">
+                        <li>Экипировка премиум-брендов</li>
+                        <li>Регулировка и wax подготовка перед каждой выдачей</li>
+                        <li>Бесплатная доставка до 5 отелей рядом с подъемниками</li>
+                        <li>Скидки 15% на аренду от 5 дней</li>
+                    </ul>
+                    <a href="#rental" class="btn-primary">Получить консультацию</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="rental" class="steps">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">Лёгкий старт</span>
+                    <h2>Аренда за 3 простых шага</h2>
+                    <p>Выбери модель, оставь заявку, встреться с курьером или забери сам — и покоряй трассы.</p>
+                </div>
+                <div class="steps-grid">
+                    <div class="step-card">
+                        <div class="step-number">01</div>
+                        <h3>Выбери комплект</h3>
+                        <p>Лыжи, сноуборд, ботинки, шлем — подберем идеально под твой рост и уровень.</p>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-number">02</div>
+                        <h3>Оставь заявку онлайн</h3>
+                        <p>Укажи даты, модель, пункт выдачи — бронирование за 2 минуты.</p>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-number">03</div>
+                        <h3>Катайся с комфортом</h3>
+                        <p>Получи снаряжение и наслаждайся горами. Поддержка 24/7 на случай вопросов.</p>
+                    </div>
+                </div>
+                <div class="rental-form-card">
+                    <h3>Быстрая бронь снаряжения</h3>
+                    <form class="simple-form">
+                        <div class="form-row">
+                            <input type="text" placeholder="Ваше имя" required>
+                            <input type="tel" placeholder="Телефон" required>
+                            <input type="text" placeholder="Даты (например, 15-20 марта)">
+                            <select>
+                                <option>Лыжи фрирайд</option>
+                                <option>Сноуборд фрирайд</option>
+                                <option>Комплект (лыжи+ботинки+шлем)</option>
+                                <option>Сноуборд комплект</option>
+                            </select>
+                        </div>
+                        <button type="submit" class="btn-primary submit-btn">Забронировать сейчас</button>
+                        <p class="form-note">Наш менеджер свяжется с вами за 10 минут</p>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <section class="gallery-stacked">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">Вдохновение снега</span>
+                    <h2>Моменты фрирайда от наших клиентов</h2>
+                    <p>Листайте вниз — каждое фото раскрывает историю</p>
+                </div>
+                <div class="stacked-gallery">
+                    <div class="stack-item">
+                        <img src="photos/sn4.jfif" alt="Сноубордист в горах" class="gallery-zoomable">
+                        <div class="stack-caption">Илья, спуск по целине, Шерегеш</div>
+                    </div>
+                    <div class="stack-item">
+                        <img src="photos/sn5.jfif" alt="Сноубордист фристайл" class="gallery-zoomable">
+                        <div class="stack-caption">Анна, первый фрирайд, Домбай</div>
+                    </div>
+                    <div class="stack-item">
+                        <img src="photos/lsh.jfif" alt="Профессиональный лыжник" class="gallery-zoomable">
+                        <div class="stack-caption">Команда SnowTime, Роза Хутор</div>
+                    </div>
+                    <div class="stack-item">
+                        <img src="photos/lsh2.jfif" alt="Лыжник фрирайд" class="gallery-zoomable">
+                        <div class="stack-caption">Максим, карвинг на закате</div>
+                    </div>
+                    <div class="stack-item">
+                        <img src="photos/sn.jfif" alt="Сноубордист прыжок" class="gallery-zoomable">
+                        <div class="stack-caption">Егор, паудер-день, Эльбрус</div>
+                    </div>
+                    <div class="stack-item">
+                        <img src="photos/sn2.jpg" alt="Группа райдеров" class="gallery-zoomable">
+                        <div class="stack-caption">Фрирайд-туры с SnowTime</div>
+                    </div>
+                </div>
+                <div class="reviews-button-wrapper">
+                    <a href="reviews.html" class="btn-primary reviews-main-btn">Читать все отзывы (156)</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="container contact-grid">
+                <div class="contact-info">
+                    <h2>Свяжитесь с нами</h2>
+                    <p>Готовы помочь с выбором экипировки и организацией проката в лучших горнолыжных курортах.</p>
+                    <div class="contact-details">
+                        <div>+7 (999) 123-45-67</div>
+                        <div>info@snowtime.ru</div>
+                        <div>Пункты выдачи: Шерегеш, Домбай, Роза Хутор, Эльбрус</div>
+                    </div>
+                    <div class="socials">
+                        <span>Telegram</span>
+                        <span>WhatsApp</span>
+                        <span>Instagram</span>
+                    </div>
+                </div>
+                <div class="contact-map zoom-img">
+                    <img src="photos/sn3.jfif" alt="Горнолыжный курорт" class="gallery-zoomable">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container footer-container">
+            <div class="footer-logo">SnowTime — аренда снаряжения для смелых</div>
+            <div class="footer-links">
+                <a href="#">Политика конфиденциальности</a>
+                <a href="#">Условия аренды</a>
+                <a href="reviews.html">Отзывы</a>
+            </div>
+            <div class="footer-copy">2025 SnowTime. Вдохновение горами и снегом.</div>
+        </div>
+    </footer>
+<script src="obr.js"></script>
+</body>
+</html>
